@@ -41,6 +41,7 @@ package org.swiftsuspenders.injectionresults
 		 *******************************************************************************************/
 		public function InjectSingletonResult(config:InjectionConfig)
 		{
+			super();
 			this.config = config;
 		}
 		

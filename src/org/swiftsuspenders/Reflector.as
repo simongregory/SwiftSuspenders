@@ -22,6 +22,7 @@ package org.swiftsuspenders
 		*******************************************************************************************/
 		public function Reflector()
 		{
+			super();
 		}
 
 		public function classExtendsOrImplements(classOrClassName : Object,

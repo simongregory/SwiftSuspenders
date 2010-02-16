@@ -17,6 +17,7 @@ package org.swiftsuspenders.injectionpoints
 		*******************************************************************************************/
 		public function InjectionPoint(node : XML, injectorMappings : Dictionary)
 		{
+			super();
 			initializeInjection(node, injectorMappings);
 		}
 		

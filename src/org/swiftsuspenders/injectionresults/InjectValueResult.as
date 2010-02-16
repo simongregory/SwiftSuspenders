@@ -40,6 +40,7 @@ package org.swiftsuspenders.injectionresults
 		 *******************************************************************************************/
 		public function InjectValueResult(config:InjectionConfig)
 		{
+			super();
 			this.config = config;
 		}
 		

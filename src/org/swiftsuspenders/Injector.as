@@ -40,6 +40,7 @@ package org.swiftsuspenders
 		*******************************************************************************************/
 		public function Injector(xmlConfig : XML = null)
 		{
+			super();
 			m_mappings = new Dictionary();
 			m_singletons = new Dictionary();
 			m_injectionPointLists = new Dictionary();
